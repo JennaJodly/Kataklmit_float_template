@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            img{
+                width:100%;
+            }
+            body{
+                margin:0;
+            }
+            .container{
+                width:80%;
+                margin: auto;
+            }
+            .bgcolor1{
+                background-color: rgb(32, 31, 31);
+                padding-bottom:30px ;
+            }
+            .bgcolor2{
+                background-color: rgb(0, 0, 0);
+                color:white;
+                padding-bottom: 30px;
+            }
+
+            .row1 >div:not(.clearfix){
+                width:50%;
+                float:left;
+            }
+            .clearfix{
+                clear: both;
+            }
+            .col1, .col2{
+                height: 130px;
+            }
+            .col1 h2{
+                font-size:40px;
+                margin: 0;
+                padding-top: 30px;
+                
+            }
+            span{
+                color: rgb(214, 33, 93);
+            }
+            .col1 h4{
+                margin:0;
+            }
+            .menu {
+                text-align: right;
+                padding: 55px 0px;
+            }
+            .menu a{
+               
+                text-decoration: none;    
+                color:gray;                         
+                padding:30px 15px;
+                font-size:20px;
+                font-weight: 100;
+                margin: 0 10px;
+        
+            }
+            .menu a:hover{
+                background:rgba(171, 6, 94);
+                color:white;
+                border-radius: 50px;  
+                transition:1s;              
+            }
+            
+            .row2 >div:nth-child(2){
+                color:white; 
+                float: left;
+                width:25%;
+                font-size: 20px;
+            }
+            .row2 >div:nth-child(3){
+                color:rgb(129, 129, 129);
+                padding: 20px;
+            }
+            .row3>div:not(.clearfix){
+                width:25%;
+                float: left;    
+            }
+            .col h3{
+                margin:0;
+                font-size: 30px;
+                padding: 20px 0px;
+               
+            }
+            .col p{
+                margin:0;
+                color:gray;
+                padding: 10px 0px 30px 0px;
+            }
+            .col h4{
+                color:white;
+                margin:0;
+                padding:20px 0px 0px 0px;
+            }
+            .col button{
+                background-color: rgb(143, 0, 62);
+                padding: 10px 20px;
+                border:0;
+                color:white;
+            }
+            .col img{
+               height:150px; 
+            }
+            .row3 div:nth-child(1),.row3 div:nth-child(2),.row3 div:nth-child(3){
+                padding-right: 30px;
+            }
+            .col button:hover{
+                /* border-radius: 50px;
+                background-color: blue;
+                padding: 20px; */
+                background-color: rgb(143, 0, 62);
+                padding: 10px 20px;
+                border:0;
+                color:white;
+                transition: 1s;
+                transform:translateX(80px);
+            }
+            .row4 h2{ 
+                 margin:0;
+                 color:white;
+                 padding:30px 0px;
+            }
+            .row4>div:not(.clearfix){
+                width:50%;
+                float:left;
+            }
+            .imagecol>div{
+                width:50%;
+                float:left;
+            }
+            .imagecol h4{
+                color:white;
+                padding:0px 20px;
+            }
+            .imagecol p{
+                color:gray;
+                padding:0px 20px;
+            }
+            hr{
+                margin: auto;
+                padding-left:20px;
+                width:90%;
+            }
+            .imagecol ul{
+                color:rgb(184, 20, 74);
+                list-style: none;
+                display: inline-block;
+            }
+            li::before{
+                content:"\203A";
+                padding-right: 10px;
+                font-weight: bolder;
+                font-size: large;
+            }
+            .imagecol2>div>div:first-child{
+                float:left;
+                width:22%;
+                margin:0px 24px 20px 0px;
+
+            }
+            .imagecol2>div>div:nth-child(2){
+                float:left;
+                width:22%;
+                margin:0px 24px 20px 0px;
+
+            }
+            .imagecol2>div>div:nth-child(3){
+                float:left;
+                width:22%;
+                margin:0px 24px 20px 0px;
+            }
+            .imagecol2>div>div:nth-child(4){
+                float:left;
+                width:22%;
+                margin: 0px 0px 20px 0px;
+            }
+            .row5>div:not(.clearfix){
+                width:50%;
+                float:left;
+            }
+            .row5>div:nth-child(2){
+                color:rgb(201, 69, 91);
+            }
+            .row5 p{
+                text-align:right;
+            }
+        </style>            
+    </head>
+        <body>
+        <hearder>
+            <div class="container">
+                <div class="row1">
+                    <div>
+                        <div class="col1">
+                            <h2><span>K</span>ata<span>K</span>limt</h2>
+                            <h4>Photography</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col2">
+                            <div class="menu">
+                                <a href="">About</a>
+                                <a href="">Sevices</a>
+                                <a href="">Folio</a>
+                                <a href="">Blog</a>
+                                <a href="">Contact</a>
+                            </div>    
+                        </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <header>
+        <section class="bgcolor1" >
+            <div class="container">
+                <div class="row2">
+                    <div>
+                        <img style="padding-top:30px" src="images/fullimage.png">
+                    </div>
+                    <div>
+                        <h2><span>W</span>elcome!</h2>
+                    </div>
+                    <div>
+                        <span>Click here</span> for more info about this free wibsite template created by TemplateMonster.com. 
+                        This is a Bootstrap template that goes with serveral layout options 
+                        (for desktop,tablet, smartphone landscape and portrait) to fit popular screen resolutions.
+                        The PSO source files of this template are availabe for free for the members of TemplateMonster.com. 
+                        Feel free to get them!
+                    </div>
+                    <div class="clearfix"></div>  
+                </div>
+            </div>          
+        </section>
+        <article class="bgcolor2">
+            <div class="container">
+               <div class="row3">
+                    <div  class="col">
+                        <h3>Fashion</h3> 
+                        <img src="images/fashion ss.png">
+                        <h4>At vero eos et accusamus et iusto</h4> 
+                        <p>Odio dignissimos ducimus qui blanditilis praesntium volupatatum.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div  class="col">
+                        <h3>Nature</h3> 
+                        <img src="images/beads-of-water-on-blades-of-grass.jpg">
+                        <h4> Deleniti atque corrupti quos</h4> 
+                        <p>Dolores et ques molestias excepturi sint occaecaati cupiditate non.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div  class="col">
+                        <h3>Love Story</h3> 
+                        <img src="images/img_2.png">
+                        <h4>Similique sunt on culpa qui officia</h4> 
+                        <p>Deserunt mollitia anini,id est laburum et dolorum fuga.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div  class="col">
+                        <h3>Fine art</h3> 
+                        <img src="images/img_3.png">
+                        <h4>Similique sunt on culpa qui officia</h4> 
+                        <p>Deserunt mollitia anini,id est laburum et dolorum fuga.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="clearfix"></div>  
+                </div>
+           </div>
+       </article>
+       <div class="bgcolor1">
+            <div class="container">
+                <div class="row4">
+                  <div class="imagecol">
+                        <h2>Shorthly about me</h2>
+                        <div>
+                        <img src="images/image_5.png">
+                        </div>
+                        <div>
+                            <h4>Sed ut perspictis unde omins natus error volupatem acuusantuim doloue laundantuim,totam rem.</h4>  
+                            <p> Aperiam, eaque ipsa quae ab illo vertatias et beatae vitaww dicta sunt explicabo nemo enim ipsam voluptatem qula 
+                            voluptas sit aspernatur aut odit aut fugit sed</p>
+                            <hr>
+                            <div>
+                                <ul>
+                                    <li>Compaigns</li>
+                                    <li>Portraits</li>
+                                    <li>Fashion</li>
+                                    <li>Fine Art</li>
+                                </ul>
+                                <ul>
+                                    <li>Advertising</li>
+                                    <li>Lifestyles</li>
+                                    <li>Love story</li>
+                                    <li>Landscape</li>
+                                </ul>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="imagecol2">
+                    <h2>Latest Photoshoots</h2>
+                    <div>
+                        <div><img src="images/kataklimt-last-r1-c1.jpg"></div>
+                        <div><img src="images/kataklimt-last-r1-c2.jpg"></div>
+                        <div><img src="images/kataklimt-r1-c3.jpg"></div>
+                        <div><img src="images/kataklimt-r1-c4.jpg"></div>
+                        <div class="clearfix"></div>  
+                    </div>  
+                    <div>
+                        <div><img src="images/kataklimt-r2-c1.jpg"></div>
+                        <div><img src="images/kataklimt-r2-c2.jpg"></div>
+                        <div><img src="images/kataklimt-r2-c3.jpg"></div>
+                        <div><img src="images/kataklimt-r2-c4.jpg"></div>
+                        <div class="clearfix"></div>  
+                    </div>  
+                    <div>
+                        <div><img src="images/kataklimt-r3-c1.jpg"></div>
+                        <div><img src="images/kataklimt-r3-c2.jpg"></div>
+                        <div><img src="images/kataklimt-r3-c3.jpg"></div>
+                        <div><img src="images/kataklimt-r3-c4.jpg"></div>
+                        <div class="clearfix"></div>  
+                    </div>  
+                  </div>
+                  <div class="clearfix"></div> 
+                </div>
+            </div>
+       </div>
+       <footer>
+        <div class="container">
+            <div class="row5">
+                <div>
+                   <h3>&#169 Copyright</h3>
+                </div>
+                <div>
+                    <p>
+                    <i class="fa-brands fa-facebook fa-2x"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-square-twitter fa-2x"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-linkedin fa-2x"></i>&nbsp;&nbsp;
+                    <i class="fa-brands fa-google fa-2x"></i>&nbsp;&nbsp;
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix"></div> 
+        </div>
+       </footer>
+    </body>
+</html>
